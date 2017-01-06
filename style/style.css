@@ -1,0 +1,31 @@
+button:focus {
+  outline: none;
+}
+
+#container{
+  width: 1000px;
+  margin: 0 auto;
+  line-height: 0;
+  width: 960px;
+  background-color: #ccc;
+}
+.cell{
+  border: 1px solid #000;
+  width: 57px;
+  height: 57px;
+  display: inline-block;
+}
+
+#reset{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 40px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+  #reset:hover{
+    background-color: red;
+  }
