@@ -2,18 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=0.75">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="style/reset.css">
   <link rel="stylesheet" href="style/style.css">
   <script src="scripts/jquery-3.1.1.min.js"></script>
   <script src="scripts/common.js"></script>
 </head>
 <body>
-  <div id="container">
-
+  <div class="wrapper">
+    <div id="device">
+      <div id="container">
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="button_container">
+        <button id="grid_size" class="buttons" type="button" name="button">Grid size</button>
+        <button id="reset" class="buttons" type="button" name="button">Reset</button>
+        <button id="erase" class="buttons" type="button" name="button">Erase</button>
+        <button id="toggle_grid" class="buttons" type="button" name="button">Grid</button>
+        <button id="paint" class="buttons" type="button" name="button">Marker</button>
+        <div id="yellow" class="color"></div>
+        <div id="blue" class="color"></div>
+        <div id="red" class="color"></div>
+        <div id="green" class="color"></div>
+        <div class="sidebar_button"></div>
+      </div>
+    </div>
   </div>
-
-  <button id="reset" type="button" name="button">Зверушка, клацни для очистки</button>
 </body>
 </html>
